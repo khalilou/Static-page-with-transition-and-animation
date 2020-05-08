@@ -89,3 +89,28 @@ header {
     font-size: 2.5em;
     color: #fff;
 }
+
+.content {
+	color: #fff;
+	background: #2c2b38;
+	height: 100vh;
+	z-index: 1900;
+}
+
+.grid {
+    width: 70%;
+    margin: 0 auto 80px;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    line-height: 1.8em;
+}
+.grid h2 {
+    font-size: 2.5em;
+    line-height: 1.4em;
+}
+.grid p {
+    font-size: 1.1em;
+    padding-top: 1.8em;
+}
